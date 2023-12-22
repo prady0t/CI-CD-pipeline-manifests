@@ -8,9 +8,10 @@ spec:
   source:
     repoURL: https://github.com/prady0t/CI-CD-pipeline-manifests
     targetRevision: HEAD
-    path: manifest
+    path: mainfest
   destination:
     server: https://kubernetes.default.svc
+    namespace: my-pipeline
 
   syncPolicy:
    automated:
